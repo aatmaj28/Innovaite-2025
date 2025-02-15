@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 
 export default function FoodForm() {
   const [food, setFood] = useState("");
-  const [allergies, setAllergies] = useState("");
+  const [allergyInput, setAllergyInput] = useState(""); // Track current allergy input
+  const [allergyTags, setAllergyTags] = useState([]); // Store allergy tags here
   const [dietaryRestrictions, setDietaryRestrictions] = useState([]);
   const router = useRouter();
 
@@ -16,11 +17,23 @@ export default function FoodForm() {
     );
   };
 
+  const handleAllergySubmit = (event) => {
+    if (event.key === 'Enter' && allergyInput.trim()) {
+      event.preventDefault(); // Prevent the form from submitting
+      setAllergyTags((prevTags) => [...prevTags, allergyInput.trim()]); // Add allergy input to the list of tags
+      setAllergyInput(""); // Clear the allergy input field
+    }
+  };
+
+  const handleTagClick = (tag) => {
+    setAllergyTags((prevTags) => prevTags.filter((item) => item !== tag)); // Remove tag from list when clicked
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const queryParams = new URLSearchParams({
       food,
-      allergies,
+      allergies: allergyTags.join(","),
       restrictions: dietaryRestrictions.join(","),
     }).toString();
     router.push(`/results?${queryParams}`);
@@ -104,11 +117,48 @@ export default function FoodForm() {
         style={inputStyle}
         placeholder="Enter food name"
       />
-      <textarea
-        value={allergies}
-        onChange={(e) => setAllergies(e.target.value)}
-        style={textareaStyle}
-        placeholder="Insert allergies"
+      {/* Display allergy tags above the input field */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginBottom: '20px' }}>
+        {allergyTags.map((tag, index) => (
+          <span
+            key={index}
+            style={{
+              backgroundColor: '#e0e0e0',
+              borderRadius: '16px',
+              padding: '8px 16px',
+              fontSize: '1em',
+              cursor: 'pointer', // Add pointer cursor for clickability
+              position: 'relative', // Position for the X icon
+            }}
+            onClick={() => handleTagClick(tag)} // Remove tag when clicked
+          >
+            {tag}
+            {/* X icon */}
+            <span
+              style={{
+                position: 'absolute',
+                top: '-4px',
+                right: '-8px', // Shift X to the right
+                backgroundColor: '#fff',
+                borderRadius: '50%',
+                padding: '2px 6px',
+                fontSize: '14px',
+                color: '#888', // Grey color for the X icon
+                cursor: 'pointer',
+              }}
+            >
+              ❌
+            </span>
+          </span>
+        ))}
+      </div>
+      <input
+        type="text"
+        value={allergyInput}
+        onChange={(e) => setAllergyInput(e.target.value)}
+        onKeyDown={handleAllergySubmit} // Listen for 'Enter' key
+        style={inputStyle}
+        placeholder="Enter allergy and press Enter"
       />
       <div style={checkboxContainerStyle}>
         <label style={labelStyle}>
