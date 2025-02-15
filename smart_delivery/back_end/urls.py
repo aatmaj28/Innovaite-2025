@@ -7,3 +7,4 @@ urlpatterns = [
     path('fetch_price_stores/', fetch_price_stores),
     
 ]
+                                                                                                                                                                                                                                                                                                                                                                            
