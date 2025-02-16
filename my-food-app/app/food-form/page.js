@@ -18,6 +18,7 @@ export default function FoodForm() {
   };
 
   const handleAllergySubmit = (event) => {
+    console.log(dietaryRestrictions)
     if (event.key === 'Enter' && allergyInput.trim()) {
       event.preventDefault(); // Prevent the form from submitting
       setAllergyTags((prevTags) => [...prevTags, allergyInput.trim()]); // Add allergy input to the list of tags
@@ -142,12 +143,13 @@ export default function FoodForm() {
                 backgroundColor: '#fff',
                 borderRadius: '50%',
                 padding: '2px 6px',
-                fontSize: '14px',
+                fontSize: '16px',
                 color: '#888', // Grey color for the X icon
                 cursor: 'pointer',
+                fontWeight: 'bold', // Make X more prominent
               }}
             >
-              ❌
+              X
             </span>
           </span>
         ))}
