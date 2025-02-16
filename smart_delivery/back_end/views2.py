@@ -207,7 +207,7 @@ def analyze_recipe(ingredients_data, store_data, matcher):
 global_matcher = CategoryAwareTransformerMatcher()
 
 @api_view(["POST"])
-def fetch_price_stores(request):
+def fetch_price_stores_llm(request):
     """API endpoint to fetch ingredient prices from stores using transformer-based matching"""
     try:
         recipe_data = request.data
