@@ -1,0 +1,6491 @@
+{
+    "Target": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 4.66,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 3.26,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 3.37,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 5.37,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 3.05,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 2.85,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 3.06,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 1.33,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 4.26,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 2.81,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 3.88,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 1.12,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 3.58,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 1.62,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 5.34,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 3.38,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 2.84,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 5.04,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 3.92,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 5.54,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 4.11,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 5.91,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 1.59,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 5.26,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 1.54,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 4.32,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 2.07,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 5.37,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 5.85,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 3.36,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 11.68,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 10.86,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 10.1,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 14.29,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 5.36,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 1.67,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 3.22,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 4.27,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 2.27,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 1.04,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 3.26,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 4.43,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 4.15,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 2.51,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 4.77,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 24.16,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 1.21,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 5.43,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 1.15,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 26.04,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 19.58,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 5.37,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 4.58,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 2.64,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 1.47,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 4.83,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 2.34,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 2.57,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 5.23,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 2.87,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 3.18,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 5.0,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 1.65,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 1.5,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 5.88,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 5.32,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 5.37,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 4.87,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 2.52,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 5.37,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 2.08,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 1.89,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 2.35,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 5.91,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 5.42,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 1.06,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 1.95,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 5.94,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 5.63,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 4.71,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 3.51,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 3.27,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 2.5,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 5.33,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 5.83,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 1.77,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 4.1,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 1.13,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 4.09,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 5.4,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 1.56,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 1.3,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 2.76,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 5.27,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 3.07,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 5.05,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 2.52,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 3.74,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 3.05,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 5.27,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 4.25,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 2.85,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 2.84,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 5.13,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 5.57,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 3.53,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 2.4,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 1.95,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 3.08,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 1.83,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 1.98,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 3.66,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 1.0,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 1.75,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 3.04,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 1.95,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 25.13,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 14.91,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 13.74,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 3.69,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 2.3,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 5.92,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 5.34,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 5.04,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 5.61,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 6.4,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 4.92,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 5.82,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 4.8,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 5.63,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 14.04,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 1.48,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 1.25,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 4.47,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 1.35,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 2.48,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 1.1,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 1.97,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 5.16,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 4.13,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 5.12,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 2.36,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 2.65,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 3.74,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 2.73,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 1.19,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 2.78,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 3.4,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 3.38,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 2.65,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 5.5,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 3.73,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 5.78,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 4.7,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 2.65,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 2.44,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 5.25,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 2.36,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 5.69,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 1.03,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 3.93,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 2.73,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 2.87,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 1.15,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 1.47,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 3.63,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 3.7,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 4.28,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 1.13,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 5.13,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 1.13,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 7.35,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 2.06,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 4.69,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 1.71,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 1.45,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 11.4,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 8.33,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 9.8,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 1.84,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 4.4,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 2.36,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 1.06,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 3.94,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 1.55,
+            "Quantity": "each"
+        }
+    ],
+    "Price Rite": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 1.2,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 3.69,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 3.95,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 4.21,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 3.34,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 2.87,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 2.94,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 2.68,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 2.87,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 4.29,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 0.91,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 0.9,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 0.99,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 1.73,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 2.52,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 2.94,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 1.86,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 3.54,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 4.59,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 1.94,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 2.62,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 3.4,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 3.38,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 1.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 2.69,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 1.39,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 4.47,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 0.8,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 3.49,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 2.41,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 7.93,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 11.85,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 10.33,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 7.95,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 3.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 1.94,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 4.58,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 3.89,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 4.47,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 1.47,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 0.82,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 1.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 1.49,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 1.07,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 4.56,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 21.2,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 2.22,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 3.08,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 1.49,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 21.78,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 14.25,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 3.85,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 1.79,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 1.21,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 1.89,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 3.98,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 3.48,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 2.61,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 1.29,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 1.46,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 3.46,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 3.48,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 2.03,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 0.97,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 3.31,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 1.79,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 1.77,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 2.92,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 2.16,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 0.97,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 2.67,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 3.74,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 1.97,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 2.41,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 4.14,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 4.45,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 2.55,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 3.4,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 4.52,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 4.54,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 1.2,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 1.47,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 4.64,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 2.91,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 2.81,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 2.42,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 0.91,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 4.56,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 1.79,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 1.47,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 3.1,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 1.55,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 1.84,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 4.48,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 1.76,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 3.53,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 0.95,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 3.2,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 4.28,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 3.35,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 1.65,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 1.13,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 3.32,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 2.91,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 4.41,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 0.99,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 4.5,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 1.06,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 2.21,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 1.23,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 3.09,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 1.92,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 4.57,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 2.67,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 1.8,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 2.94,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 13.67,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 10.08,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 10.87,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 2.77,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 2.65,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 6.08,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 5.27,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 6.31,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 4.97,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 3.6,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 5.13,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 3.62,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 6.17,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 6.23,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 6.73,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 0.95,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 2.27,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 2.12,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 1.7,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 1.07,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 2.7,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 1.42,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 2.99,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 3.89,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 1.29,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 2.71,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 2.55,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 2.25,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 1.9,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 3.35,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 2.68,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 1.49,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 4.24,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 2.27,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 1.12,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 1.42,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 0.82,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 1.68,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 1.25,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 2.64,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 2.26,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 2.83,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 4.04,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 2.94,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 1.83,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 3.84,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 1.76,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 2.19,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 3.26,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 4.75,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 2.45,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 1.71,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 3.55,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 2.89,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 1.0,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 7.99,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 1.73,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 4.26,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 4.02,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 2.39,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 6.58,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 5.19,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 8.98,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 1.95,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 3.2,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 2.33,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 0.92,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 4.18,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 3.73,
+            "Quantity": "each"
+        }
+    ],
+    "Walmart": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 2.4,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 2.04,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 4.31,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 2.8,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 4.31,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 1.29,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 4.39,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 1.63,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 4.48,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 3.66,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 3.08,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 2.14,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 3.41,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 4.41,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 3.71,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 2.35,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 2.31,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 2.21,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 2.19,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 0.85,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 4.59,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 3.58,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 1.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 2.77,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 0.98,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 3.82,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 2.24,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 3.06,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 0.98,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 3.86,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 9.98,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 8.29,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 10.43,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 7.92,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 3.19,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 4.14,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 1.29,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 3.45,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 0.98,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 4.59,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 1.15,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 1.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 3.93,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 4.25,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 2.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 18.14,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 4.15,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 2.94,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 2.96,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 18.41,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 23.29,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 3.97,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 2.45,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 4.59,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 1.04,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 1.29,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 2.92,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 3.25,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 2.03,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 3.0,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 4.16,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 4.45,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 2.54,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 0.87,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 2.68,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 2.77,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 2.17,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 3.18,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 4.55,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 3.62,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 4.59,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 1.27,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 0.98,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 1.38,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 2.2,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 2.51,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 1.52,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 4.04,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 2.44,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 2.04,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 1.01,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 2.84,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 2.58,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 4.44,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 2.63,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 4.71,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 1.95,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 2.95,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 4.46,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 4.3,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 2.74,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 4.05,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 4.09,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 4.32,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 2.1,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 4.65,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 2.16,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 2.65,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 4.8,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 3.95,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 1.89,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 4.56,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 1.92,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 4.16,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 2.72,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 2.01,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 2.67,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 2.84,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 1.24,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 4.18,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 2.0,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 2.14,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 3.48,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 4.57,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 0.9,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 4.4,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 14.81,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 9.31,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 10.82,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 2.46,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 4.75,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 4.63,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 3.26,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 3.77,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 4.47,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 6.0,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 3.69,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 4.43,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 4.06,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 6.32,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 10.96,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 3.3,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 2.49,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 3.28,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 3.28,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 2.64,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 4.22,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 1.46,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 4.19,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 1.68,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 3.18,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 1.79,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 1.77,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 4.18,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 1.86,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 4.22,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 3.72,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 4.72,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 1.34,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 3.21,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 1.49,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 3.71,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 4.42,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 1.06,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 3.95,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 1.27,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 0.9,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 1.52,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 0.8,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 1.36,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 4.59,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 2.23,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 2.43,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 1.7,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 1.85,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 4.37,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 3.65,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 3.36,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 3.34,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 4.78,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 1.07,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 6.63,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 2.96,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 4.42,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 4.07,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 2.15,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 7.42,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 8.75,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 5.07,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 1.06,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 0.97,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 3.29,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 2.49,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 4.25,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 2.55,
+            "Quantity": "each"
+        }
+    ],
+    "Whole Foods": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 7.01,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 3.5,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 4.09,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 6.22,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 4.95,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 7.6,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 2.58,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 4.08,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 5.75,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 1.73,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 4.85,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 6.2,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 4.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 7.06,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 2.78,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 2.47,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 3.62,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 3.92,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 7.65,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 3.23,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 2.01,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 2.14,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 7.77,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 2.52,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 2.06,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 6.65,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 2.92,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 2.87,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 6.84,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 1.67,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 13.04,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 17.03,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 14.14,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 18.57,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 7.78,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 4.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 3.25,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 4.93,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 6.44,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 4.45,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 2.31,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 5.79,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 5.44,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 3.97,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 1.61,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 29.11,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 3.82,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 5.12,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 7.01,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 22.92,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 37.34,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 5.33,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 3.6,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 2.55,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 2.11,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 6.15,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 5.53,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 7.79,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 6.35,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 5.95,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 3.8,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 5.78,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 2.4,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 4.17,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 2.0,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 2.22,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 3.17,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 3.02,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 6.85,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 5.13,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 7.57,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 2.08,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 5.26,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 1.34,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 3.38,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 7.18,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 1.54,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 4.14,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 4.38,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 7.61,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 2.08,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 1.5,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 5.98,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 5.98,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 1.31,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 3.13,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 7.56,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 5.5,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 1.33,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 2.64,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 1.86,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 6.48,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 3.34,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 6.02,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 3.26,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 5.92,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 5.78,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 1.92,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 3.59,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 3.35,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 2.54,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 3.82,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 2.11,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 6.49,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 4.88,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 6.03,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 1.34,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 4.24,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 5.67,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 4.3,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 3.6,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 7.54,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 2.09,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 2.58,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 6.11,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 3.28,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 20.1,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 18.37,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 13.72,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 5.55,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 3.51,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 8.32,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 9.55,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 9.04,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 5.71,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 6.57,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 6.45,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 5.6,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 10.26,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 6.69,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 15.2,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 6.72,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 6.27,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 2.62,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 1.77,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 6.85,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 4.78,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 7.67,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 4.5,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 6.85,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 4.82,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 3.18,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 1.38,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 4.76,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 2.65,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 7.56,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 3.32,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 7.28,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 5.98,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 1.71,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 1.64,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 4.76,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 3.87,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 3.51,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 4.68,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 1.33,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 7.67,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 6.19,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 1.54,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 6.68,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 1.78,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 4.44,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 1.91,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 4.97,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 5.07,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 2.46,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 4.35,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 4.62,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 3.82,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 7.21,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 1.81,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 7.82,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 5.35,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 6.9,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 2.15,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 3.09,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 15.54,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 13.53,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 9.18,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 6.59,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 7.36,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 6.48,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 6.28,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 4.84,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 6.52,
+            "Quantity": "each"
+        }
+    ],
+    "Trader Joe's": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 3.7,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 7.21,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 7.08,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 5.88,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 6.38,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 6.66,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 6.69,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 3.82,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 1.94,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 3.1,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 4.87,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 2.14,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 6.3,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 4.07,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 7.4,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 5.88,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 1.55,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 5.89,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 7.22,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 2.69,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 7.07,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 3.94,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 3.21,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 1.83,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 1.6,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 5.58,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 2.32,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 5.32,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 6.2,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 2.67,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 11.63,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 13.27,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 12.18,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 16.84,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 5.06,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 2.17,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 7.41,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 3.3,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 3.86,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 1.44,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 2.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 1.99,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 5.02,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 3.05,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 4.69,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 21.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 6.88,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 2.66,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 4.43,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 29.54,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 30.62,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 5.5,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 3.15,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 6.45,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 4.08,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 6.7,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 2.77,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 5.63,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 2.83,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 4.49,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 6.02,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 8.53,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 5.81,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 2.4,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 6.8,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 4.16,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 5.48,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 4.15,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 4.79,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 2.13,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 3.06,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 3.73,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 3.96,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 6.78,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 1.49,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 1.45,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 5.68,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 3.87,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 5.45,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 2.67,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 2.17,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 5.44,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 6.66,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 6.08,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 3.35,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 6.0,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 5.31,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 4.72,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 1.79,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 4.95,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 6.52,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 4.12,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 7.79,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 5.87,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 6.68,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 4.37,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 1.74,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 7.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 4.81,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 4.11,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 3.39,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 6.91,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 1.41,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 6.75,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 5.06,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 4.72,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 1.94,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 7.07,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 6.41,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 3.19,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 2.41,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 5.7,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 4.76,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 6.06,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 4.68,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 7.57,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 30.29,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 11.4,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 12.51,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 5.17,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 7.6,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 7.21,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 7.99,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 7.47,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 7.12,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 9.97,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 6.34,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 5.29,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 9.51,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 10.12,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 15.0,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 2.9,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 6.71,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 5.66,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 4.12,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 4.08,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 5.68,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 3.54,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 3.21,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 4.31,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 1.9,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 6.79,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 6.36,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 3.71,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 7.21,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 6.42,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 7.27,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 4.91,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 5.37,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 2.27,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 4.18,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 7.11,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 2.25,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 3.73,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 5.11,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 2.4,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 6.35,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 7.13,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 2.04,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 3.87,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 2.85,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 5.1,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 1.32,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 5.92,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 5.76,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 5.79,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 4.87,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 5.19,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 1.96,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 3.17,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 3.92,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 9.39,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 4.59,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 3.51,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 4.37,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 7.64,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 12.72,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 12.61,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 7.97,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 2.46,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 4.09,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 1.34,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 3.19,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 2.28,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 2.78,
+            "Quantity": "each"
+        }
+    ],
+    "Costco": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 2.75,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 2.22,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 1.14,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 5.66,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 4.36,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 3.77,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 1.1,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 2.48,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 4.98,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 3.48,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 2.66,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 2.52,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 5.85,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 5.8,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 5.07,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 2.86,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 3.64,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 1.73,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 2.97,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 2.18,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 3.28,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 3.34,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 3.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 4.84,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 2.09,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 2.31,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 5.53,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 4.17,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 4.3,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 2.13,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 13.59,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 12.03,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 10.09,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 8.11,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 4.98,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 2.13,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 4.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 1.73,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 1.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 4.77,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 3.4,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 3.89,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 3.59,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 3.62,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 3.69,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 24.44,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 3.2,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 5.34,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 5.35,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 24.14,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 20.65,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 5.6,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 4.23,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 3.76,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 3.88,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 1.33,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 5.81,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 2.74,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 4.53,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 4.27,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 5.8,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 5.06,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 2.43,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 5.38,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 3.2,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 1.07,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 1.94,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 3.82,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 1.82,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 5.38,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 1.79,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 2.92,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 2.14,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 3.85,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 1.27,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 3.14,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 3.97,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 2.57,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 1.77,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 1.92,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 2.49,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 5.17,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 2.28,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 2.08,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 1.47,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 5.1,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 1.09,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 4.45,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 2.63,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 2.43,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 5.28,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 2.28,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 3.23,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 3.1,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 4.66,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 4.14,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 5.41,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 4.95,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 2.27,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 3.13,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 4.58,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 5.19,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 2.8,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 5.71,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 5.28,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 2.32,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 4.0,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 3.98,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 2.57,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 6.0,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 3.92,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 5.38,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 1.78,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 4.76,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 4.71,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 4.95,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 24.64,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 13.22,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 11.82,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 2.18,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 1.15,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 4.27,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 7.48,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 5.34,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 6.94,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 6.94,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 6.97,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 7.58,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 5.47,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 5.68,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 14.0,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 2.35,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 5.2,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 3.37,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 2.44,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 2.04,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 1.61,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 4.95,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 3.1,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 5.32,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 5.87,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 3.21,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 5.55,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 4.51,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 2.59,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 2.89,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 5.57,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 4.07,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 4.74,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 5.98,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 4.06,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 3.04,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 3.5,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 1.98,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 5.32,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 3.68,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 5.84,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 1.56,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 1.29,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 2.07,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 3.87,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 3.09,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 4.63,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 4.23,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 3.12,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 2.11,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 5.04,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 4.81,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 5.41,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 4.68,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 5.96,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 10.54,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 5.57,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 1.6,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 4.55,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 5.7,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 9.33,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 6.46,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 10.18,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 3.33,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 2.79,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 5.52,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 4.11,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 2.97,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 2.87,
+            "Quantity": "each"
+        }
+    ],
+    "Aldi": [
+        {
+            "Item Name": "Red Apples",
+            "Item Price ($)": 3.43,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Green Apples",
+            "Item Price ($)": 3.11,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Oranges",
+            "Item Price ($)": 4.05,
+            "Quantity": "3 lb"
+        },
+        {
+            "Item Name": "Bananas",
+            "Item Price ($)": 2.95,
+            "Quantity": "1 bunch"
+        },
+        {
+            "Item Name": "Strawberries",
+            "Item Price ($)": 3.17,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Blueberries",
+            "Item Price ($)": 3.2,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Raspberries",
+            "Item Price ($)": 0.99,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Blackberries",
+            "Item Price ($)": 4.35,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Grapes",
+            "Item Price ($)": 3.24,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Watermelon",
+            "Item Price ($)": 1.73,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Cantaloupe",
+            "Item Price ($)": 3.39,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Honeydew",
+            "Item Price ($)": 3.89,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Tomatoes",
+            "Item Price ($)": 4.69,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cherry Tomatoes",
+            "Item Price ($)": 1.48,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Lettuce",
+            "Item Price ($)": 2.32,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Spinach",
+            "Item Price ($)": 4.78,
+            "Quantity": "10 oz"
+        },
+        {
+            "Item Name": "Kale",
+            "Item Price ($)": 0.9,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Carrots",
+            "Item Price ($)": 2.1,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baby Carrots",
+            "Item Price ($)": 1.56,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Celery",
+            "Item Price ($)": 2.53,
+            "Quantity": "bunch"
+        },
+        {
+            "Item Name": "Bell Peppers",
+            "Item Price ($)": 1.43,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Cucumbers",
+            "Item Price ($)": 3.98,
+            "Quantity": "3 count"
+        },
+        {
+            "Item Name": "Zucchini",
+            "Item Price ($)": 1.31,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Yellow Squash",
+            "Item Price ($)": 2.87,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Broccoli",
+            "Item Price ($)": 3.14,
+            "Quantity": "crown"
+        },
+        {
+            "Item Name": "Cauliflower",
+            "Item Price ($)": 0.81,
+            "Quantity": "head"
+        },
+        {
+            "Item Name": "Asparagus",
+            "Item Price ($)": 2.04,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 3.55,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Snow Peas",
+            "Item Price ($)": 1.42,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Sweet Potatoes",
+            "Item Price ($)": 4.11,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 10.3,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Chicken Thighs",
+            "Item Price ($)": 10.72,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Chicken",
+            "Item Price ($)": 7.75,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Chicken",
+            "Item Price ($)": 7.87,
+            "Quantity": "each"
+        },
+        {
+            "Item Name": "Ground Turkey",
+            "Item Price ($)": 2.84,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Turkey Breast",
+            "Item Price ($)": 1.63,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 80/20",
+            "Item Price ($)": 4.46,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Beef 90/10",
+            "Item Price ($)": 2.27,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Sirloin",
+            "Item Price ($)": 2.49,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Beef Chuck Roast",
+            "Item Price ($)": 2.35,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Beef Ribeye",
+            "Item Price ($)": 3.64,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pork Chops",
+            "Item Price ($)": 4.66,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ground Pork",
+            "Item Price ($)": 2.96,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Bacon",
+            "Item Price ($)": 3.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Ham",
+            "Item Price ($)": 2.76,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salmon Fillet",
+            "Item Price ($)": 14.48,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tilapia Fillet",
+            "Item Price ($)": 1.57,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Cod Fillet",
+            "Item Price ($)": 3.78,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Shrimp",
+            "Item Price ($)": 1.73,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Tuna Steak",
+            "Item Price ($)": 14.63,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Crab Legs",
+            "Item Price ($)": 18.14,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Whole Milk",
+            "Item Price ($)": 4.42,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "2% Milk",
+            "Item Price ($)": 4.1,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "1% Milk",
+            "Item Price ($)": 1.36,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Skim Milk",
+            "Item Price ($)": 0.81,
+            "Quantity": "1 gallon"
+        },
+        {
+            "Item Name": "Almond Milk",
+            "Item Price ($)": 0.82,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Soy Milk",
+            "Item Price ($)": 2.89,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Heavy Cream",
+            "Item Price ($)": 4.1,
+            "Quantity": "1 pint"
+        },
+        {
+            "Item Name": "Half & Half",
+            "Item Price ($)": 3.94,
+            "Quantity": "1 quart"
+        },
+        {
+            "Item Name": "Butter",
+            "Item Price ($)": 1.91,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Large Eggs",
+            "Item Price ($)": 1.78,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Organic Eggs",
+            "Item Price ($)": 4.84,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Brown Eggs",
+            "Item Price ($)": 1.08,
+            "Quantity": "12 count"
+        },
+        {
+            "Item Name": "Cheddar Cheese",
+            "Item Price ($)": 2.14,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Mozzarella Cheese",
+            "Item Price ($)": 2.22,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Swiss Cheese",
+            "Item Price ($)": 3.28,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cream Cheese",
+            "Item Price ($)": 1.94,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Cottage Cheese",
+            "Item Price ($)": 2.46,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Greek Yogurt",
+            "Item Price ($)": 4.01,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Regular Yogurt",
+            "Item Price ($)": 4.39,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Sour Cream",
+            "Item Price ($)": 4.38,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "White Bread",
+            "Item Price ($)": 0.99,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Wheat Bread",
+            "Item Price ($)": 3.98,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Sourdough Bread",
+            "Item Price ($)": 2.91,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Rye Bread",
+            "Item Price ($)": 3.72,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "French Bread",
+            "Item Price ($)": 3.94,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Italian Bread",
+            "Item Price ($)": 1.77,
+            "Quantity": "loaf"
+        },
+        {
+            "Item Name": "Bagels",
+            "Item Price ($)": 2.94,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "English Muffins",
+            "Item Price ($)": 3.31,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Hamburger Buns",
+            "Item Price ($)": 2.68,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Hot Dog Buns",
+            "Item Price ($)": 1.78,
+            "Quantity": "8 count"
+        },
+        {
+            "Item Name": "Tortillas",
+            "Item Price ($)": 2.71,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Pita Bread",
+            "Item Price ($)": 4.05,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "Croissants",
+            "Item Price ($)": 2.36,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Muffins",
+            "Item Price ($)": 3.75,
+            "Quantity": "4 count"
+        },
+        {
+            "Item Name": "Donuts",
+            "Item Price ($)": 1.86,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "White Rice",
+            "Item Price ($)": 4.23,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Brown Rice",
+            "Item Price ($)": 1.83,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Quinoa",
+            "Item Price ($)": 2.99,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Pasta Spaghetti",
+            "Item Price ($)": 4.04,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Penne",
+            "Item Price ($)": 2.75,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Pasta Rotini",
+            "Item Price ($)": 2.07,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "All-Purpose Flour",
+            "Item Price ($)": 2.93,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Whole Wheat Flour",
+            "Item Price ($)": 4.58,
+            "Quantity": "5 lb"
+        },
+        {
+            "Item Name": "Sugar",
+            "Item Price ($)": 3.71,
+            "Quantity": "4 lb"
+        },
+        {
+            "Item Name": "Brown Sugar",
+            "Item Price ($)": 3.06,
+            "Quantity": "2 lb"
+        },
+        {
+            "Item Name": "Baking Powder",
+            "Item Price ($)": 2.32,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Baking Soda",
+            "Item Price ($)": 4.6,
+            "Quantity": "1 lb"
+        },
+        {
+            "Item Name": "Salt",
+            "Item Price ($)": 3.97,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Black Pepper",
+            "Item Price ($)": 3.13,
+            "Quantity": "4 oz"
+        },
+        {
+            "Item Name": "Olive Oil",
+            "Item Price ($)": 2.88,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Vegetable Oil",
+            "Item Price ($)": 4.28,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Canola Oil",
+            "Item Price ($)": 4.38,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Apple Cider Vinegar",
+            "Item Price ($)": 1.83,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Balsamic Vinegar",
+            "Item Price ($)": 1.43,
+            "Quantity": "16.9 oz"
+        },
+        {
+            "Item Name": "Soy Sauce",
+            "Item Price ($)": 4.42,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Diced Tomatoes",
+            "Item Price ($)": 3.66,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Tomato Sauce",
+            "Item Price ($)": 1.75,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tomato Paste",
+            "Item Price ($)": 3.98,
+            "Quantity": "6 oz"
+        },
+        {
+            "Item Name": "Black Beans",
+            "Item Price ($)": 3.13,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Kidney Beans",
+            "Item Price ($)": 2.55,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Chickpeas",
+            "Item Price ($)": 2.91,
+            "Quantity": "15.5 oz"
+        },
+        {
+            "Item Name": "Corn",
+            "Item Price ($)": 4.33,
+            "Quantity": "15.25 oz"
+        },
+        {
+            "Item Name": "Green Beans",
+            "Item Price ($)": 0.87,
+            "Quantity": "14.5 oz"
+        },
+        {
+            "Item Name": "Peas",
+            "Item Price ($)": 3.02,
+            "Quantity": "15 oz"
+        },
+        {
+            "Item Name": "Tuna",
+            "Item Price ($)": 2.1,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Salmon",
+            "Item Price ($)": 16.38,
+            "Quantity": "14.75 oz"
+        },
+        {
+            "Item Name": "Chicken Breast",
+            "Item Price ($)": 11.2,
+            "Quantity": "12.5 oz"
+        },
+        {
+            "Item Name": "Soup Chicken Noodle",
+            "Item Price ($)": 8.15,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Tomato",
+            "Item Price ($)": 1.39,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Soup Vegetable",
+            "Item Price ($)": 2.35,
+            "Quantity": "10.5 oz"
+        },
+        {
+            "Item Name": "Frozen Pizza",
+            "Item Price ($)": 3.47,
+            "Quantity": "12 inch"
+        },
+        {
+            "Item Name": "Frozen Vegetables Mix",
+            "Item Price ($)": 5.9,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Corn",
+            "Item Price ($)": 5.62,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Peas",
+            "Item Price ($)": 6.2,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Broccoli",
+            "Item Price ($)": 4.45,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Frozen Green Beans",
+            "Item Price ($)": 3.69,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Ice Cream Vanilla",
+            "Item Price ($)": 3.7,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Ice Cream Chocolate",
+            "Item Price ($)": 4.52,
+            "Quantity": "half gallon"
+        },
+        {
+            "Item Name": "Frozen Waffles",
+            "Item Price ($)": 3.4,
+            "Quantity": "10 count"
+        },
+        {
+            "Item Name": "Frozen Chicken Nuggets",
+            "Item Price ($)": 7.08,
+            "Quantity": "25 oz"
+        },
+        {
+            "Item Name": "Orange Juice",
+            "Item Price ($)": 3.35,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Apple Juice",
+            "Item Price ($)": 2.45,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Cranberry Juice",
+            "Item Price ($)": 4.03,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Grape Juice",
+            "Item Price ($)": 1.34,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Lemonade",
+            "Item Price ($)": 3.72,
+            "Quantity": "59 oz"
+        },
+        {
+            "Item Name": "Iced Tea",
+            "Item Price ($)": 2.92,
+            "Quantity": "64 oz"
+        },
+        {
+            "Item Name": "Coffee Ground",
+            "Item Price ($)": 2.75,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Coffee Beans",
+            "Item Price ($)": 2.15,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Green Tea",
+            "Item Price ($)": 1.82,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Black Tea",
+            "Item Price ($)": 3.47,
+            "Quantity": "20 bags"
+        },
+        {
+            "Item Name": "Soda Cola",
+            "Item Price ($)": 2.76,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Soda Lemon-Lime",
+            "Item Price ($)": 2.94,
+            "Quantity": "2 liter"
+        },
+        {
+            "Item Name": "Sparkling Water",
+            "Item Price ($)": 1.04,
+            "Quantity": "12 pack"
+        },
+        {
+            "Item Name": "Bottled Water",
+            "Item Price ($)": 2.42,
+            "Quantity": "24 pack"
+        },
+        {
+            "Item Name": "Potato Chips",
+            "Item Price ($)": 3.5,
+            "Quantity": "8 oz"
+        },
+        {
+            "Item Name": "Tortilla Chips",
+            "Item Price ($)": 3.77,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Pretzels",
+            "Item Price ($)": 1.55,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Popcorn",
+            "Item Price ($)": 2.83,
+            "Quantity": "28 oz"
+        },
+        {
+            "Item Name": "Mixed Nuts",
+            "Item Price ($)": 3.61,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Almonds",
+            "Item Price ($)": 2.08,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Peanuts",
+            "Item Price ($)": 2.2,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Cashews",
+            "Item Price ($)": 1.96,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Trail Mix",
+            "Item Price ($)": 3.28,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Chocolate Bar",
+            "Item Price ($)": 1.26,
+            "Quantity": "3.5 oz"
+        },
+        {
+            "Item Name": "Cookies Chocolate Chip",
+            "Item Price ($)": 4.15,
+            "Quantity": "13 oz"
+        },
+        {
+            "Item Name": "Cookies Oreo",
+            "Item Price ($)": 3.39,
+            "Quantity": "14.3 oz"
+        },
+        {
+            "Item Name": "Crackers",
+            "Item Price ($)": 0.94,
+            "Quantity": "13.7 oz"
+        },
+        {
+            "Item Name": "Ketchup",
+            "Item Price ($)": 1.9,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Mustard",
+            "Item Price ($)": 3.76,
+            "Quantity": "14 oz"
+        },
+        {
+            "Item Name": "Mayonnaise",
+            "Item Price ($)": 3.48,
+            "Quantity": "30 oz"
+        },
+        {
+            "Item Name": "BBQ Sauce",
+            "Item Price ($)": 0.86,
+            "Quantity": "18 oz"
+        },
+        {
+            "Item Name": "Hot Sauce",
+            "Item Price ($)": 4.24,
+            "Quantity": "5 oz"
+        },
+        {
+            "Item Name": "Ranch Dressing",
+            "Item Price ($)": 3.32,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Italian Dressing",
+            "Item Price ($)": 0.81,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Honey",
+            "Item Price ($)": 1.61,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Maple Syrup",
+            "Item Price ($)": 3.79,
+            "Quantity": "12 oz"
+        },
+        {
+            "Item Name": "Peanut Butter",
+            "Item Price ($)": 4.33,
+            "Quantity": "16 oz"
+        },
+        {
+            "Item Name": "Jelly Grape",
+            "Item Price ($)": 3.08,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Jelly Strawberry",
+            "Item Price ($)": 1.53,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Dish Soap",
+            "Item Price ($)": 2.5,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Laundry Detergent",
+            "Item Price ($)": 4.36,
+            "Quantity": "100 oz"
+        },
+        {
+            "Item Name": "Paper Towels",
+            "Item Price ($)": 4.7,
+            "Quantity": "6 rolls"
+        },
+        {
+            "Item Name": "Toilet Paper",
+            "Item Price ($)": 1.99,
+            "Quantity": "12 rolls"
+        },
+        {
+            "Item Name": "Trash Bags",
+            "Item Price ($)": 3.99,
+            "Quantity": "45 count"
+        },
+        {
+            "Item Name": "Sponges",
+            "Item Price ($)": 2.99,
+            "Quantity": "6 count"
+        },
+        {
+            "Item Name": "All-Purpose Cleaner",
+            "Item Price ($)": 8.13,
+            "Quantity": "32 oz"
+        },
+        {
+            "Item Name": "Glass Cleaner",
+            "Item Price ($)": 9.17,
+            "Quantity": "26 oz"
+        },
+        {
+            "Item Name": "Floor Cleaner",
+            "Item Price ($)": 6.64,
+            "Quantity": "48 oz"
+        },
+        {
+            "Item Name": "Dog Food",
+            "Item Price ($)": 1.33,
+            "Quantity": "15 lb"
+        },
+        {
+            "Item Name": "Cat Food",
+            "Item Price ($)": 2.41,
+            "Quantity": "12 lb"
+        },
+        {
+            "Item Name": "Cat Litter",
+            "Item Price ($)": 2.89,
+            "Quantity": "20 lb"
+        },
+        {
+            "Item Name": "Dog Treats",
+            "Item Price ($)": 2.2,
+            "Quantity": "24 oz"
+        },
+        {
+            "Item Name": "Cat Treats",
+            "Item Price ($)": 3.27,
+            "Quantity": "2.1 oz"
+        },
+        {
+            "Item Name": "Pet Toys",
+            "Item Price ($)": 3.18,
+            "Quantity": "each"
+        }
+    ]
+}

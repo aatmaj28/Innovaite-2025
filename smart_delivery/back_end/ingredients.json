@@ -1,0 +1,40 @@
+{
+    "recipe_name": "Pizza",
+    "ingredients": [
+      {
+        "item": "Tomatoes",
+        "amount": "1",
+        "unit": "ball"
+      },
+      {
+        "item": "Pizza Sauce",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "item": "Mozzarella Cheese",
+        "amount": "8",
+        "unit": "oz"
+      },
+      {
+        "item": "Pepperoni",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "item": "Olive Oil",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "item": "Apples",
+        "amount": "1",
+        "unit": "teaspoon"
+      },
+      {
+        "item": "Cheese",
+        "amount": "2",
+        "unit": "tablespoons"
+      }
+    ]
+  }
