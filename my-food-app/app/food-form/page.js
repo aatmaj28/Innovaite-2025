@@ -25,6 +25,7 @@ export default function FoodForm() {
   const [priceStoresData, setPriceStoresData] = useState(null);
   const [cheapestStoreIngredients, setCheapestStoreIngredients] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  
 
 
   // Preset dishes to display as clickable boxes
@@ -288,7 +289,6 @@ export default function FoodForm() {
 
     console.log("Before delay");
 
-    // Delay execution by a random time between 4s and 6s
     await new Promise(resolve => setTimeout(resolve, Math.random() * (6000 - 4000) + 4000));
 
     console.log("After delay");
@@ -310,7 +310,6 @@ export default function FoodForm() {
 
     console.log("Filtered ingredients:", JSON.stringify(result));
 
-    // Another delay before fetch request
     await new Promise(resolve => setTimeout(resolve, Math.random() * 1000));
 
     try {
@@ -321,10 +320,12 @@ export default function FoodForm() {
         });
 
         const data = await response.json();
-        console.log("Cheapest store ingredients:", data.cheapest_store_ingredients);
+        console.log("Response data:", data);
 
+        // Convert data to query parameters
         const query = new URLSearchParams({
             ingredients: JSON.stringify(data.cheapest_store_ingredients),
+            store_totals: JSON.stringify(data.store_totals), // Include store_totals
         }).toString();
 
         setIsLoading(false);
@@ -334,6 +335,7 @@ export default function FoodForm() {
         console.error("Error fetching price stores:", error);
     }
 };
+
 
   
   const handlePresetClick = (dish) => {

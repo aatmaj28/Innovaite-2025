@@ -6,22 +6,31 @@ import { useEffect, useState } from "react";
 export default function Results() {
   const router = useRouter();
   const searchParams = useSearchParams();
+
   const [ingredientsData, setIngredientsData] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
+  const [storeTotals, setStoreTotals] = useState({});
 
   useEffect(() => {
-    const ingredientsParam = searchParams.get("ingredients");
-    if (ingredientsParam) {
-      try {
-        const parsedData = JSON.parse(ingredientsParam);
-        setIngredientsData(parsedData);
-      } catch (error) {
-        console.error("Error parsing ingredients:", error);
+    try {
+      const ingredientsParam = searchParams.get("ingredients");
+      const storeTotalsParam = searchParams.get("store_totals");
+
+      if (ingredientsParam) {
+        const ingredients = JSON.parse(ingredientsParam || "[]");
+        setIngredientsData(ingredients);
       }
+
+      if (storeTotalsParam) {
+        const parsedStoreTotals = JSON.parse(storeTotalsParam || "{}");
+        setStoreTotals(parsedStoreTotals);
+      }
+    } catch (error) {
+      console.error("Error parsing query params:", error);
     }
   }, [searchParams]);
 
-  // Updated styles to match original app
+  // Styles
   const styles = {
     pageContainer: {
       display: "flex",
@@ -47,6 +56,42 @@ export default function Results() {
       color: "#2c3e50",
       fontWeight: "600",
     },
+
+    // ---------- NEW: Table for store totals
+    storeTableContainer: {
+      width: "80%",
+      margin: "0 auto 2rem",
+      backgroundColor: "#eef2eb",
+      borderRadius: "12px",
+      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+      padding: "1.5rem",
+      textAlign: "center",
+    },
+    storeTableTitle: {
+      fontSize: "1.25rem",
+      fontWeight: 600,
+      marginBottom: "1rem",
+      color: "#2c3e50",
+    },
+    storeTable: {
+      width: "100%",
+      borderCollapse: "collapse",
+      tableLayout: "fixed",
+    },
+    storeTableHeaderCell: {
+      fontWeight: "bold",
+      fontSize: "1rem",
+      borderBottom: "2px solid #ccc",
+      padding: "0.75rem",
+      color: "#2c3e50",
+    },
+    storeTableCell: {
+      padding: "0.75rem",
+      borderBottom: "1px solid #ccc",
+      color: "#2c3e50",
+    },
+    // ---------- END: Table for store totals
+
     ingredientList: {
       listStyleType: "none",
       padding: "0",
@@ -120,12 +165,21 @@ export default function Results() {
       color: "#36405e",
       marginTop: "auto",
     },
+    darkText: {
+      fontWeight: "bold",
+      color: "#1a1a1a", // Darker color for Price and Store
+    },
   };
 
+  // Compute total price for all ingredients
   const totalPrice = ingredientsData.reduce(
-    (sum, ingredient) => sum + parseFloat(ingredient.Price),
+    (sum, ingredient) => sum + parseFloat(ingredient.Price || 0),
     0
   );
+
+  // Convert storeTotals object into arrays
+  const storeNames = Object.keys(storeTotals); // e.g. ["Walmart", "Trader Joe's", ...]
+  // storeTotals = { "Walmart": 10.5, "Trader Joe's": 8.0 }
 
   return (
     <div style={styles.pageContainer}>
@@ -133,6 +187,35 @@ export default function Results() {
       
       <h1 style={styles.title}>Your Grocery List</h1>
 
+      {/* ---------- 1) Store Totals Table ---------- */}
+      {storeNames.length > 0 && (
+        <div style={styles.storeTableContainer}>
+          <div style={styles.storeTableTitle}>Compare Store Prices</div>
+          <table style={styles.storeTable}>
+            <thead>
+              <tr>
+                {storeNames.map((store, idx) => (
+                  <th key={idx} style={styles.storeTableHeaderCell}>
+                    {store}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                {storeNames.map((store, idx) => (
+                  <td key={idx} style={styles.storeTableCell}>
+                    ${parseFloat(storeTotals[store]).toFixed(2)}
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      )}
+      {/* ---------- END Table ---------- */}
+
+      {/* ---------- 2) Ingredient List ---------- */}
       {ingredientsData?.length > 0 ? (
         <ul style={styles.ingredientList}>
           {ingredientsData.map((ingredient, index) => (
@@ -155,8 +238,10 @@ export default function Results() {
               </div>
               <div style={styles.ingredientDetails}>
                 <span>Quantity: {ingredient.Quantity}</span>
-                <span>Price: ${parseFloat(ingredient.Price).toFixed(2)}</span>
-                <span>Store: {ingredient.Store}</span>
+                <span>
+                  Price: <strong style={styles.darkText}>${parseFloat(ingredient.Price).toFixed(2)}</strong>
+                </span>
+                <span>Store: <strong style={styles.darkText}>{ingredient.Store}</strong></span>
               </div>
             </li>
           ))}
@@ -165,10 +250,12 @@ export default function Results() {
         <p>No ingredients found</p>
       )}
 
+      {/* ---------- 3) Total Price Block ---------- */}
       <div style={styles.totalPriceBlock}>
         Total Estimated Price: ${totalPrice.toFixed(2)}
       </div>
 
+      {/* ---------- 4) Return Button ---------- */}
       <div style={styles.buttonContainer}>
         <button
           style={styles.returnButton}
@@ -180,6 +267,7 @@ export default function Results() {
         </button>
       </div>
 
+      {/* ---------- 5) Footer ---------- */}
       <footer style={styles.footer}>
         © 2025 SmartCart. All rights reserved.
       </footer>
