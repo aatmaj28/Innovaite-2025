@@ -25,29 +25,42 @@ def fetch_ingredients(request):
     # Configure Google Generative AI
     genai.configure(api_key=api_key)
 
-    prompt = f"""
-    Generate a list of ingredients needed to make {recipe_name}.
-    I want to make a shopping list.
-    Ensure the response follows this structure:
-    {{
-        "recipe_name": "{recipe_name}",
-        "ingredients": [
-            {{
-                "item": "ingredient name",
-                "amount": "numeric value",
-                "unit": "measurement unit"
-            }}
-        ]
-    }}
+    prompt = f"""System / Instruction: You are an assistant that outputs only valid JSON with no additional text or formatting 
+    (such as code blocks or markdown fences). You will be given a recipe name and must return JSON containing the recipe name 
+    and a list of ingredients with specific fields.
 
-    Rules:
-    - Do NOT return values like "to taste", "as needed", "pinch". Always provide a numeric quantity.
-    - Convert fractions (e.g., 1/4) into decimal format.
-    - Use standard measurement units (e.g., grams, cups, tablespoons).
-    - If an ingredient is optional, include a field: "optional": true.
-    - Do not include any extra text, only return JSON.
+    User Message: Generate a list of ingredients needed to make {recipe_name}, returned in strict JSON format. Follow these rules:
+
+    Structure:
+        {{
+            "recipe_name": "{recipe_name}",
+            "ingredients": [
+                {{
+                    "item": "ingredient name",
+                    "amount": "numeric value in decimal format",
+                    "unit": "standard measurement unit",
+                    "optional": true
+                }}
+            ]
+        }}
+
+    Numeric Amounts Only:
+    - Do not use "to taste", "as needed", "pinch", or fractions like "1/4". Convert any fractions to decimal format 
+    (e.g., "1/4" → "0.25").
+    - If the amount is unknown, choose a numeric default (e.g., "1").
+
+    No Extra Text:
+    - Do not include any additional explanation or code fences. Only return the JSON object.
+
+    Standard Units:
+    - Use standard units (e.g., "grams", "cups", "tablespoons", "teaspoons", "pound", etc.).
+    - If no unit is specified, choose a reasonable default (e.g., "cup" or "piece").
+
+    Optional Field:
+    - If the ingredient is optional, include "optional": true; otherwise, "optional": false.
+    - Your output must be valid JSON adhering exactly to this structure, with quotes around keys and string values, and no 
+    additional properties.
     """
-
     model = genai.GenerativeModel("gemini-pro")
     response = model.generate_content(prompt)
 
@@ -56,12 +69,12 @@ def fetch_ingredients(request):
         return Response({"error": "Failed to generate ingredients"}, status=500)
 
     raw_text = response.candidates[0].content.parts[0].text  
-    print("Raw Response:", raw_text)  
+    # print("Raw Response:", raw_text)  
 
     # Remove unwanted formatting
     if raw_text.startswith("```json"):
         raw_text = raw_text.replace("```json", "").replace("```", "").strip()
-
+    print("Raw Response:", raw_text)
     try:
         # Convert AI response to JSON
         ingredients_data = json.loads(raw_text)
@@ -87,7 +100,7 @@ def fetch_ingredients(request):
 
             # Ensure unit is always present
             ingredient["unit"] = ingredient.get("unit", "teaspoon")  # Default to teaspoon
-
+        print("Cleaned Response:", raw_text)
         return Response(ingredients_data)
 
     except json.JSONDecodeError:

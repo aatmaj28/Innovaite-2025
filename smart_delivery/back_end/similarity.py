@@ -124,8 +124,8 @@ def find_matches(ingredient, store_data):
                     "Quantity": item["Quantity"],
                     "Similarity": similarity
                 })
-            else:
-                print(ingredient,"not found")
+            # else:
+                # print(ingredient,"not found")
     
     # Sort matches by price
     matches.sort(key=lambda x: x["Price"])
