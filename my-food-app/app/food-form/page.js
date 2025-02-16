@@ -46,13 +46,13 @@ export default function FoodForm() {
       */
 
       const payload = {
-        recipe_name: food,  // Replace "thing" with the actual recipe name or variable
-        allergies: allergyTags.join(","),
-        restrictions: dietaryRestrictions.join(","),
+        recipe_name: food//,  // Replace "thing" with the actual recipe name or variable
+        // allergies: allergyTags.join(","),
+        // restrictions: dietaryRestrictions.join(","),
       };
       
       // Send POST request to fetch_ingredients endpoint
-      fetch('/fetch_ingredients/', {
+      fetch('http://localhost:8000/smart-delivery/fetch_ingredients/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -62,11 +62,12 @@ export default function FoodForm() {
         .then(response => response.json())
         .then(data => {
           // Handle the response from the API, e.g., navigating to the results page
-          console.log(data);
+          console.log("API Response:",data);
           const queryParams = new URLSearchParams({
             food,
             // allergies: allergyTags.join(","),
             // restrictions: dietaryRestrictions.join(","),
+            data: JSON.stringify(data), // Convert JSON to string
           }).toString();
           router.push(`/results?${queryParams}`);
         })

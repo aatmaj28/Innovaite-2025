@@ -17,7 +17,7 @@ def fetch_ingredients(request):
         return Response({"error": "Recipe name is required"}, status=400)
     
     api_key = os.getenv("GOOGLE_API_KEY")
-    api_key = "AIzaSyCn81NFyqRBDT-8qR0kyOSbsTwoFS8dZCw"
+    api_key = "AIzaSyCn81NFyqRBDT-8qR0kyOSbsTwoFS8dZCw"  # Replace with secure storage in production
     if not api_key:
         return Response({"error": "GOOGLE_API_KEY not found"}, status=500)
 
@@ -40,7 +40,7 @@ def fetch_ingredients(request):
     }}
 
     Rules:
-    - Do NOT return values like "to taste", "as needed", or "pinch" or anything not able to qunatify-"teaspoon","tablespoon". Always provide a numeric quantity.
+    - Do NOT return values like "to taste", "as needed", "pinch". Always provide a numeric quantity.
     - Convert fractions (e.g., 1/4) into decimal format.
     - Use standard measurement units (e.g., grams, cups, tablespoons).
     - If an ingredient is optional, include a field: "optional": true.
@@ -67,17 +67,25 @@ def fetch_ingredients(request):
 
         # Validate & clean response
         for ingredient in ingredients_data["ingredients"]:
+            amount = ingredient["amount"]
+
             # Convert fractions to decimal values
-            if isinstance(ingredient["amount"], str) and "/" in ingredient["amount"]:
+            if isinstance(amount, str) and "/" in amount:
                 try:
-                    ingredient["amount"] = str(eval(ingredient["amount"]))  # Convert fraction to decimal
-                except:
-                    ingredient["amount"] = "1"  # Default if conversion fails
+                    ingredient["amount"] = str(eval(amount))  # Convert fraction to decimal
+                except Exception as e:
+                    print(f"Error converting fraction {amount}: {e}")
+                    ingredient["amount"] = "1"  # Default to 1 if conversion fails
+
+            # Ensure amount is a string for consistency
+            ingredient["amount"] = str(ingredient["amount"])
 
             # Replace vague measurements
             if ingredient["amount"] in ["to taste", "as needed", "pinch"]:
                 ingredient["amount"] = "1"
-            ingredient["unit"] = ingredient["unit"] or "teaspoon" # Default to teaspoon if unit is missing
+
+            # Ensure unit is always present
+            ingredient["unit"] = ingredient.get("unit", "teaspoon")  # Default to teaspoon
 
         return Response(ingredients_data)
 

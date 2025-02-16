@@ -13,7 +13,7 @@ export default function Results() {
     apple: ["1lb", "1.5", "Walmart"],
     banana: ["6pc", "1.2", "Whole Foods"],
     tomato: ["1lb", "2.5", "Trader Joe's"],
-  };
+  };//fetch
 
   const totalPrice = Object.values(data).reduce(
     (sum, details) => sum + parseFloat(details[1]),
