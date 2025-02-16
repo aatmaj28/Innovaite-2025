@@ -5,6 +5,7 @@ import os
 import json
 import google.generativeai as genai  # Correct import
 from difflib import SequenceMatcher
+from .similarity import load_json_file,calculate_similarity,find_matches,analyze_recipe_ingredients,calculate_store_totals
 def sample_api(request):
     return JsonResponse({"message": "Hello, API!"})
 
@@ -92,84 +93,6 @@ def fetch_ingredients(request):
     except json.JSONDecodeError:
         return Response({"error": "Invalid response format from AI"}, status=500)
 
-def load_json_file(filename):
-    """Load and parse a JSON file"""
-    with open(filename, 'r') as file:
-        return json.load(file)
-
-def calculate_similarity(a, b):
-    """Calculate string similarity between two strings"""
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
-
-def find_matches(ingredient, store_data):
-    """Find all matching store items for a recipe ingredient"""
-    matches = []
-    
-    for store_name, store_items in store_data.items():
-        for item in store_items:
-            similarity = calculate_similarity(ingredient, item["Item Name"])
-            if similarity > 0.8:  # Threshold of 0.8
-                matches.append({
-                    "Store": store_name,
-                    "Store Item": item["Item Name"],
-                    "Price": item["Item Price ($)"],
-                    "Quantity": item["Quantity"],
-                    "Similarity": similarity
-                })
-    
-    # Sort matches by price
-    matches.sort(key=lambda x: x["Price"])
-    return matches
-
-def analyze_recipe_ingredients(recipe_data, store_data):
-    """Analyze all options for recipe ingredients across stores"""
-    all_results = []
-    best_options = []
-    
-    # Process each recipe ingredient
-    for ingredient in recipe_data["ingredients"]:
-        ingredient_name = ingredient["item"]
-        matches = find_matches(ingredient_name, store_data)
-        
-        if matches:
-            # Store all matches for this ingredient
-            all_results.append({
-                "Recipe Ingredient": ingredient_name,
-                "Matches": matches
-            })
-            
-            # Store the best (cheapest) match
-            best_options.append({
-                "Recipe Ingredient": ingredient_name,
-                "Store": matches[0]["Store"],
-                "Store Item": matches[0]["Store Item"],
-                "Price": matches[0]["Price"],
-                "Quantity": matches[0]["Quantity"]
-            })
-    
-    return all_results, best_options
-
-def calculate_store_totals(all_results):
-    """Calculate total basket value for each store"""
-    store_totals = {}
-    store_items = {}
-    
-    for result in all_results:
-        ingredient = result["Recipe Ingredient"]
-        for match in result["Matches"]:
-            store = match["Store"]
-            price = match["Price"]
-            
-            if store not in store_totals:
-                store_totals[store] = 0
-                store_items[store] = []
-            
-            # Only add the price if we haven't counted this ingredient for this store yet
-            if ingredient not in store_items[store]:
-                store_totals[store] += price
-                store_items[store].append(ingredient)
-    
-    return store_totals, store_items
 
 @api_view(["POST"])
 def fetch_price_stores(request):
@@ -197,14 +120,55 @@ def fetch_price_stores(request):
     # Find the cheapest store
     cheapest_store = min(store_totals.items(), key=lambda x: x[1]) if store_totals else None
 
+    # Gather all ingredients & prices specifically for the cheapest store
+    cheapest_store_ingredients = []
+    if cheapest_store:
+        cheapest_store_name = cheapest_store[0]
+        # Loop through each ingredient's match list to find matches for the cheapest store
+        for result in all_results:
+            # Each `result` has {"Recipe Ingredient": ..., "Matches": [...]}
+            matches_for_that_store = [
+                m for m in result["Matches"]
+                if m["Store"] == cheapest_store_name
+            ]
+            # If there's at least one match for this ingredient in the cheapest store
+            if matches_for_that_store:
+                # The matches are already sorted by price ascending in `find_matches`
+                # so the first match is the cheapest for that store. 
+                # You could keep them all if you want, but typically you’d pick the first.
+                best_match = matches_for_that_store[0]
+                cheapest_store_ingredients.append({
+                    "Recipe Ingredient": result["Recipe Ingredient"],
+                    "Store": best_match["Store"],
+                    "Store Item": best_match["Store Item"],
+                    "Price": best_match["Price"],
+                    "Quantity": best_match["Quantity"],
+                })
+
     response_data = {
         "all_options": all_results,
         "best_options": best_options,
         "store_totals": store_totals,
-        "cheapest_store": {
-            "name": cheapest_store[0],
-            "total_price": cheapest_store[1]
-        } if cheapest_store else "No matches found"
+        "cheapest_store": (
+            {
+                "name": cheapest_store[0],
+                "total_price": cheapest_store[1],
+            }
+            if cheapest_store
+            else "No matches found"
+        ),
+        # NEW key containing all cheapest store items
+        "cheapest_store_ingredients": cheapest_store_ingredients,
     }
+
+    # response_data = {
+    #     "all_options": all_results,
+    #     "best_options": best_options,
+    #     "store_totals": store_totals,
+    #     "cheapest_store": {
+    #         "name": cheapest_store[0],
+    #         "total_price": cheapest_store[1]
+    #     } if cheapest_store else "No matches found"
+    # }
 
     return JsonResponse(response_data, safe=False)

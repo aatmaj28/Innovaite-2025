@@ -100,7 +100,6 @@
 import json
 from difflib import SequenceMatcher
 import pandas as pd
-
 def load_json_file(filename):
     """Load and parse a JSON file"""
     with open(filename, 'r') as file:
@@ -117,7 +116,7 @@ def find_matches(ingredient, store_data):
     for store_name, store_items in store_data.items():
         for item in store_items:
             similarity = calculate_similarity(ingredient, item["Item Name"])
-            if similarity > 0.8:  # Threshold of 0.8
+            if similarity > 0.5:  # Threshold of 0.8
                 matches.append({
                     "Store": store_name,
                     "Store Item": item["Item Name"],
@@ -125,6 +124,8 @@ def find_matches(ingredient, store_data):
                     "Quantity": item["Quantity"],
                     "Similarity": similarity
                 })
+            else:
+                print(ingredient,"not found")
     
     # Sort matches by price
     matches.sort(key=lambda x: x["Price"])
@@ -137,6 +138,7 @@ def analyze_recipe_ingredients(recipe_data, store_data):
     
     # Process each recipe ingredient
     for ingredient in recipe_data["ingredients"]:
+        print("ingredient",ingredient)
         ingredient_name = ingredient["item"]
         matches = find_matches(ingredient_name, store_data)
         
@@ -179,53 +181,5 @@ def calculate_store_totals(all_results):
                 store_items[store].append(ingredient)
     
     return store_totals, store_items
-
-def display_results(all_results, best_options):
-    """Display all results in a formatted way"""
-    print("\n=== All Available Options ===")
-    for result in all_results:
-        print(f"\nIngredient: {result['Recipe Ingredient']}")
-        matches_df = pd.DataFrame(result['Matches'])
-        matches_df = matches_df.drop('Similarity', axis=1)
-        print(matches_df.to_string(index=False))
-        print("-" * 80)
-    
-    print("\n=== Best (Cheapest) Options Per Item ===")
-    best_df = pd.DataFrame(best_options)
-    print(best_df.to_string(index=False))
-    
-    # Calculate total basket value for each store
-    store_totals, store_items = calculate_store_totals(all_results)
-    
-    print("\n=== Total Basket Value By Store ===")
-    for store, total in store_totals.items():
-        print(f"{store}: ${total:.2f}")
-    
-    # Find the cheapest store
-    if store_totals:
-        cheapest_store = min(store_totals.items(), key=lambda x: x[1])
-        print(f"\n🏆 Best Overall Option: {cheapest_store[0]}")
-        print(f"Total basket value: ${cheapest_store[1]:.2f}")
-        
-        # Count how many items are available at each store
-        store_item_counts = {store: len(items) for store, items in store_items.items()}
-        items_at_cheapest = store_item_counts[cheapest_store[0]]
-        total_items = len({result["Recipe Ingredient"] for result in all_results})
-        
-        print(f"Items found at {cheapest_store[0]}: {items_at_cheapest} out of {total_items}")
-    else:
-        print("\nNo matches found in any store")
-
-# Main execution
-# if __name__ == "__main__":
-    # Load the data
-recipe_data = load_json_file("ingredients.json")
-store_data = load_json_file("shopping.json")
-
-# Analyze ingredients
-all_results, best_options = analyze_recipe_ingredients(recipe_data, store_data)
-    
-    # Display results
-display_results(all_results, best_options)
 
 
