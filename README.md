@@ -69,12 +69,12 @@ smart-delivery/
 - **Database**:
   - SQLite3 (configured in Django settings)
 
- - **API/Communication**:
+- **API/Communication**:
   - REST APIs
   - JSON for data exchange
   - CORS (Cross-Origin Resource Sharing)
 
- - **Version Control/Environment**:
+- **Version Control/Environment**:
   - Git
 
 ## Getting Started 🚀
