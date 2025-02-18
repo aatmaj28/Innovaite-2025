@@ -53,7 +53,7 @@ smart-delivery/
   - Redis for caching
 
 - **AI/ML**:
-  - Google's Generative AI (Gemini Pro model)
+  - Google's Gemini Pro model
   - PyTorch
   - Transformers (BERT)
   - scikit-learn
@@ -75,7 +75,7 @@ smart-delivery/
   - CORS (Cross-Origin Resource Sharing)
 
 - **Version Control/Environment**:
-  - Git
+  - Git BASH
 
 ## Getting Started 🚀
 
